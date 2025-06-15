@@ -13,7 +13,7 @@
       background: #f5f5f5;
       color: #333;
     }
-    h2 {
+    h1, h2 {
       text-align: center;
       color: #2a6ebb;
     }
@@ -65,6 +65,8 @@
 
   <img src="https://i.imgur.com/8FYYMtm.png" alt="Logo Der MatheMentor" />
 
+  <h1>Der MatheMentor</h1>
+
   <p class="description">
     Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis zur 13. Klasse.<br />
     Buche jetzt ganz einfach deinen 2-Stunden-Termin!
@@ -84,8 +86,8 @@
   <div class="contact">
     <h2>Kontakt</h2>
     <p>👤 Ali Batin Yorulmaz</p>
-    <p>📧 E-Mail: <a href="mailto:Aliyorulmaz4242@gmail.com">Aliyorulmaz4242@gmail.com</a></p>
-    <p>📱 Telefon/WhatsApp: <a href="tel:+4915757764491">0157 5776 4491</a></p>
+    <p>📧 E-Mail: <a href="mailto:aliyorulmaz4242@gmail.com">aliyorulmaz4242@gmail.com</a></p>
+    <p>📱 Telefon/WhatsApp: <a href="tel:+4915757764491">0157 57764491</a></p>
     <p>📍 Adresse: Friedrich-Ebert-Straße 199, 58566 Kierspe</p>
   </div>
 
