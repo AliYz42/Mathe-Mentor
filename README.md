@@ -1,5 +1,3 @@
-
-
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
@@ -59,7 +57,21 @@
       max-width: 200px;
       display: block;
       margin: 0 auto 1rem;
+      position: relative; /* damit der Text absolut über dem Bild gefunden wird */
+      z-index: 1;
     }
+
+    /* NEU: Text direkt über dem Bild verstecken */
+    img::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 2;
+    }
+
+    /* Verstecke alle Elemente, die über dem Bild liegen und Text enthalten */
+    /* Alternativ kannst du das Bild in ein Wrapper-Div packen, der overflow:hidden hat */
   </style>
 </head>
 <body>
