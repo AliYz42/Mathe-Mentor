@@ -13,7 +13,7 @@
       background: #f5f5f5;
       color: #333;
     }
-    h1, h2 {
+    h2 {
       text-align: center;
       color: #2a6ebb;
     }
@@ -64,8 +64,6 @@
 <body>
 
   <img src="https://i.imgur.com/8FYYMtm.png" alt="Logo Der MatheMentor" />
-
-  <h1>Der MatheMentor</h1>
 
   <p class="description">
     Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis zur 13. Klasse.<br />
