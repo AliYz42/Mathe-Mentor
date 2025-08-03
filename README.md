@@ -73,7 +73,7 @@
 
   <img src="https://i.imgur.com/8FYYMtm.png" alt="Logo Der MatheMentor" />
 
-  <!-- Über mich zuerst -->
+  <!-- Über mich -->
   <div class="about-me">
     <h2>Über mich</h2>
     <p>Hallo! Ich bin Ali Batin Yorulmaz, 20 Jahre alt und Student. Mathematik war schon immer meine große Stärke – deshalb habe ich Mathe im Abitur als Prüfungsfach gewählt und mit der Note <strong>2</strong> abgeschlossen.</p>
@@ -91,11 +91,11 @@
   <h2>Mein Angebot</h2>
   <p class="description">
     Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis 10. <br />
-    Buche jetzt ganz einfach deinen 2-Stunden-Termin!
+    Buche jetzt ganz einfach deinen Termin!
   </p>
 
   <p class="preise">
-    Preis: 2 Stunden – 35 €
+    Preis: 2 Unterrichtseinheiten (insgesamt 90 Minuten) – 35 €
   </p>
 
   <h2>Termin buchen</h2>
