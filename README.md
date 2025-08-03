@@ -81,7 +81,7 @@
   <h1>Der MatheMentor</h1>
 
   <p class="description">
-    Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis zur 13. Klasse.<br />
+    Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis zur 10. Klasse.<br />
     Buche jetzt ganz einfach deinen 2-Stunden-Termin!
   </p>
 
