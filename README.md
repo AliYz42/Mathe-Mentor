@@ -12,7 +12,7 @@
       background: #f5f5f5;
       color: #333;
     }
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
       color: #2a6ebb;
     }
@@ -43,38 +43,29 @@
       margin-top: 1rem;
       font-style: italic;
     }
-    .description {
+    .description, .preise {
       text-align: center;
       margin-bottom: 1rem;
     }
     .preise {
-      text-align: center;
       font-weight: bold;
-      margin-bottom: 2rem;
       font-size: 1.1rem;
+      margin-bottom: 2rem;
     }
     img {
       max-width: 200px;
       display: block;
       margin: 0 auto 1rem;
-      position: relative;
-      z-index: 1;
     }
     .about-me {
       padding: 1.5rem;
       margin: 2rem 0;
       border-radius: 8px;
+      background: none;
       line-height: 1.6;
     }
-    .about-me h2 {
-      text-align: center;
-      color: #2a6ebb;
+    .about-me p {
       margin-bottom: 1rem;
-    }
-    .about-me hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 1.5rem 0;
     }
   </style>
 </head>
@@ -82,35 +73,30 @@
 
   <img src="https://i.imgur.com/8FYYMtm.png" alt="Logo Der MatheMentor" />
 
-  <h1>Der MatheMentor</h1>
+  <!-- Über mich zuerst -->
+  <div class="about-me">
+    <h2>Über mich</h2>
+    <p>Hallo! Ich bin Ali Batin Yorulmaz, 20 Jahre alt und Student. Mathematik war schon immer meine große Stärke – deshalb habe ich Mathe im Abitur als Prüfungsfach gewählt und mit der Note <strong>2</strong> abgeschlossen.</p>
 
+    <h3>Nachhilfe mit System und Herz</h3>
+    <p>Ich unterstütze Schülerinnen und Schüler der Klassen 5 bis 10 dabei, Mathe zu verstehen – Schritt für Schritt, in ihrem eigenen Tempo und ganz ohne Stress. Dabei lege ich besonderen Wert darauf, Mathe einfach, verständlich und alltagsnah zu erklären.</p>
+
+    <p style="text-align: center; font-weight: bold;">
+      Du brauchst Hilfe bei Mathe?<br />
+      Dann melde dich – gemeinsam schaffen wir das!
+    </p>
+  </div>
+
+  <!-- Angebot -->
+  <h2>Mein Angebot</h2>
   <p class="description">
-    Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis zur 10. Klasse.<br />
+    Individuelle Mathe-Nachhilfe im Präsenzunterricht – von Klasse 5 bis 10. <br />
     Buche jetzt ganz einfach deinen 2-Stunden-Termin!
   </p>
 
   <p class="preise">
     Preis: 2 Stunden – 35 €
   </p>
-
-  <!-- Über mich Abschnitt -->
-  <div class="about-me">
-    <h2>Über mich</h2>
-    <p>Hallo! Ich bin Ali Batin Yorulmaz, 20 Jahre alt und Student. Mathematik war schon immer meine große Stärke – deshalb habe ich Mathe im Abitur als Prüfungsfach gewählt und mit der Note <strong>2</strong> abgeschlossen.</p>
-
-    <hr />
-
-    <h3>Nachhilfe mit System und Herz</h3>
-    <p>
-      Ich unterstütze Schülerinnen und Schüler der Klassen 5 bis 10 dabei, Mathe zu verstehen – Schritt für Schritt, in ihrem eigenen Tempo und ganz ohne Stress. 
-      Dabei lege ich besonderen Wert darauf, Mathe einfach, verständlich und alltagsnah zu erklären.
-    </p>
-
-    <p style="text-align: center; margin-top: 1rem;">
-      Du brauchst Hilfe bei Mathe?<br />
-      <strong>Dann melde dich – gemeinsam schaffen wir das!</strong>
-    </p>
-  </div>
 
   <h2>Termin buchen</h2>
   <iframe src="https://zeeg.me/aliyorulmaz4242/2h" allowfullscreen></iframe>
