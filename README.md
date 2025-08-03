@@ -71,6 +71,11 @@
       color: #2a6ebb;
       margin-bottom: 1rem;
     }
+    .about-me hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 1.5rem 0;
+    }
   </style>
 </head>
 <body>
@@ -91,12 +96,19 @@
   <!-- Über mich Abschnitt -->
   <div class="about-me">
     <h2>Über mich</h2>
+    <p>Hallo! Ich bin Ali Batin Yorulmaz, 20 Jahre alt und Student. Mathematik war schon immer meine große Stärke – deshalb habe ich Mathe im Abitur als Prüfungsfach gewählt und mit der Note <strong>2</strong> abgeschlossen.</p>
+
+    <hr />
+
+    <h3>Nachhilfe mit System und Herz</h3>
     <p>
-      Ich bin Ali Batin Yorulmaz, 20 Jahre alt, Student und Mathe war schon immer mein stärkstes Fach.
-      Im Abitur hatte ich Mathe als Prüfungsfach und habe die Note <strong>2</strong> erreicht.
-      <br><br>
-      Ich gebe Nachhilfe für Schülerinnen und Schüler der Klassen 5 bis 10. 
-      Mir ist wichtig, Mathe einfach und verständlich zu erklären – Schritt für Schritt, ohne Stress und in deinem Tempo.
+      Ich unterstütze Schülerinnen und Schüler der Klassen 5 bis 10 dabei, Mathe zu verstehen – Schritt für Schritt, in ihrem eigenen Tempo und ganz ohne Stress. 
+      Dabei lege ich besonderen Wert darauf, Mathe einfach, verständlich und alltagsnah zu erklären.
+    </p>
+
+    <p style="text-align: center; margin-top: 1rem;">
+      Du brauchst Hilfe bei Mathe?<br />
+      <strong>Dann melde dich – gemeinsam schaffen wir das!</strong>
     </p>
   </div>
 
