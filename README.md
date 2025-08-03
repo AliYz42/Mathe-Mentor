@@ -86,7 +86,7 @@
   </p>
 
   <p class="preise">
-    Preis: 2 Stunden – 30 €
+    Preis: 2 Stunden – 35 €
   </p>
 
   <h2>Termin buchen</h2>
